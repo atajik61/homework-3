@@ -1,0 +1,160 @@
+body{
+	background-color:#35374B;
+	margin:0;
+	padding:0;
+	color:#f9f9f9;
+	font-family:serif;
+	}
+header{
+	background-color:#35374B;
+	position:fixed;
+	top:0;
+	z-index:1;
+	width:100%;
+	box-shadow:0  0 30px 0 #FFE6E6;
+}
+ul li{
+	display:inline-block;
+	margin:0 20px 10px 0;
+	background-color:#80BCBD;
+	padding:10px;
+	border-radius:10px;
+	box-shadow:10px  5px 10px #FFE6E6;
+}
+ul a{
+	text-decoration:none;
+}
+li:hover{
+	background-color:#EE99C2;
+}
+
+#top{
+	text-align:center;
+	padding-top:80px;
+	position:relative;	
+}
+#top img{
+	width:100%;
+	height:600px;
+}
+#caption{
+	position:absolute;
+	background-color:none;
+	margin:200px 0 0 30px;
+}
+#new{
+	text-align:center;
+	font-family:cursive;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	gap:50px;
+	margin-top:60px;
+}
+.box{
+	width:270px;
+	height:350px;
+	background-color:#030637;
+	margin:40px 0 30px 110px;
+	box-shadow:10px  5px 10px #FFE6E6;
+	position:relative;
+	justify-content:center;
+	align-items:center;
+}
+.box img{
+	width:250px;
+	height:230px;
+	padding:10px;
+}
+.play{
+	display:none;
+	position:absolute;
+	top:140px;
+	left:110px;
+	color:red;
+	font-size:4em;
+	opacity:0;
+	background-color:black;
+	border-radius:40px;
+}
+
+.box:hover{
+	transform: scale(1.1);
+	transition:opacity 0.5;
+}
+.box :hover .play{
+	opacity:0.8;
+	transition
+}
+.box h3{
+	text-align:center;
+	color:#f9f9f9;
+}
+.box a{
+	text-decoration:none;
+}
+.box p{
+	text-align:center;
+	color:red;
+}
+#detailes{
+	width:750px;
+	height:860px;
+	margin-left:300px;
+	background-color:#030637;
+	padding-top:80px;
+	border-radius:5px;
+	
+}
+#detailes img{
+	width:700px;
+	height:600px;
+	padding:25px 25px 0 25px;
+}
+#detailes h2{
+	margin-left:20px;
+}
+#detailes p{
+	margin-left:20px;
+}
+#detailes button{
+	width:100px;
+	height:50px;
+	margin:0 0 30px 20px;
+	background-color:#FFF7F1;
+	font-size:30px;
+	
+}
+#detailes a{
+	text-decoration:none;
+}
+.pagination{
+	width:300px;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	margin:auto;
+	gap:5px;
+}
+.item{
+	width:30px;
+	height:30px;
+	border:1px solid #f9f9f9;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+.item:hover{
+	background-color:#35374B;
+}
+footer{
+	width:100%;
+	position:fixed;
+	color:#f9f9f9;
+	background-color:black;
+	text-align:center;
+	bottom:0;
+	
+}
