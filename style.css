@@ -24,6 +24,11 @@ ul li{
 ul a{
 	text-decoration:none;
 }
+#sign{
+	margin-left:750px;
+	box-shadow:none;
+}
+	
 li:hover{
 	background-color:#EE99C2;
 }
